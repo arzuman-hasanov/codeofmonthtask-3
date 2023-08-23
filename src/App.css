@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0b666a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Container {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.TodoWrapper {
+  background: #fff;
+  margin-top: 80px;
+  padding: 32px;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #000;
+  font-size: 28px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.todoInput {
+  width: 300px;
+  background: none;
+  outline: none;
+  border: 1px solid #0b666a;
+  color: #000;
+  padding: 8px 16px;
+  margin: 16px 0 32px 0;
+  border-radius: 5px;
+}
+
+.todoInput::placeholder {
+  color: #000;
+}
+
+.btn {
+  background: #0b666a;
+  color: #fff;
+  border: none;
+  padding: 9px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0b666a;
+  color: #fff;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.faTrashCan {
+  margin-left: 12px;
+}
+
+.faPenToSquare:hover,
+.faTrashCan:hover,
+.btn:hover,
+.todo-name:hover {
+  color: #000;
+  transition: .2s ease;
+}
+
+.done {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
