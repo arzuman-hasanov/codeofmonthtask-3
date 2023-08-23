@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/codeofmonthtask-3/static/css/main.8e6fecc5.css",
+    "main.js": "/codeofmonthtask-3/static/js/main.c6a2c820.js",
+    "static/js/787.618b5e11.chunk.js": "/codeofmonthtask-3/static/js/787.618b5e11.chunk.js",
+    "index.html": "/codeofmonthtask-3/index.html",
+    "main.8e6fecc5.css.map": "/codeofmonthtask-3/static/css/main.8e6fecc5.css.map",
+    "main.c6a2c820.js.map": "/codeofmonthtask-3/static/js/main.c6a2c820.js.map",
+    "787.618b5e11.chunk.js.map": "/codeofmonthtask-3/static/js/787.618b5e11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e6fecc5.css",
+    "static/js/main.c6a2c820.js"
+  ]
+}
